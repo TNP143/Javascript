@@ -39,15 +39,19 @@ console.log(result4)
 let pnum = "121-213141-412";
 pnum = pnum.replaceAll("-","");
 console.log(pnum)
+//แทน-ด้วยช่องว่าง
 
 let pnum1 = "121-213141-412";
 pnum1 = pnum1.padStart(18,"+62 ");
 console.log(pnum1)
+//เติมข้อความ " +62 " ด้านหน้าจนกว่าสตริงจะมีความยาว 18 ตัวอักษร
 
 let pnum2= "121-213141-412";
 pnum2 = pnum2.padEnd(18,"0");
 console.log(pnum2)
+//เติม "0" ต่อท้ายจนสตริงมีความยาว 18 ตัวอักษร
 
 let pnum3 = "121-213141-412";
 pnum3 = pnum3.padStart(18,"+62 ").replaceAll("-","");
 console.log(pnum3)
+//เติม " +62 " ด้านหน้าและลบเครื่องหมายขีดกลาง (-) ทั้งหมดในสตริง
