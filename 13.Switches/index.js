@@ -18,6 +18,8 @@ let day = 17;
 //     }
 // lebih baik menggukan switch supaya menghemat kata dalam penulisan
 
+let day =1;
+
 switch(day){
     case 1 :
         console.log("mon");
