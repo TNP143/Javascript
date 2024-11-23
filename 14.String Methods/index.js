@@ -3,22 +3,22 @@
 let userName = "  Xnaizerrre";
 
 console.log(userName.charAt(0));
-// mengambil huruf yang ditentukan urutannya bermulai dari 0
+//แสดงตัวอักษรที่ตำแหน่งที่ 0 ของสตริง
 
 console.log(userName.indexOf("i"));
-// mengambil urutan nomor dari huruf yang ditentukan
+// คืนค่าตำแหน่งของตัวอักษร "i" ตัวแรกที่พบ
 
 console.log(userName.lastIndexOf("e"));
-//mengambil urutan dari huruf yang ditentukan semisal e ada dua yang paling terakhir e nya ada di urutan ke berapa
+/คืนค่าตำแหน่งของตัวอักษร "e" ตัวสุดท้าย
 
 
 console.log(userName.length)
-//menentukan panjang dari huruf
+//แสดงความยาวของสตริง (รวมช่องว่าง)
 
-console.log(userName.trim())// meanghapus spasi
-console.log(userName.toUpperCase()) // uppercase
-console.log(userName.toLowerCase()) // lowercase
-console.log(userName.repeat(3)) // repeat
+console.log(userName.trim())//ลบช่องว่าง (whitespace) ด้านหน้าและด้านหลังของสตริง
+console.log(userName.toUpperCase()) // แปลงสตริงเป็นตัวพิมพ์ใหญ่ทั้งหมด
+console.log(userName.toLowerCase()) // แปลงสตริงเป็นตัวพิมพ์เล็กทั้งหมด
+console.log(userName.repeat(3)) // ทำซ้ำสตริง 3 ครั้งต่อเนื่องกัน
 
 let result = userName.startsWith(" ")
 console.log(result)
