@@ -1,24 +1,6 @@
 // switch = can be an efficient replacement to many else if statements
 
-let day = 17;
-
-// daripada menggunakan banyak else if 
-// if(age3 < 0){
-//     result.textContent = "ga bisa 0"
-//     }
-//     else if(age3 >= 100){
-//         result.textContent = "gelooo masih hidup";
-//     }
-//     else if(age3 >= 18){
-//         result.textContent = "approved";
-//     }
-   
-//     else{
-//         result.textContent = "WHAT YOU DOING HERE!!!!";
-//     }
-// lebih baik menggukan switch supaya menghemat kata dalam penulisan
-
-let day =1;
+let day = 1;
 
 switch(day){
     case 1 :
